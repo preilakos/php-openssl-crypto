@@ -12,8 +12,8 @@
         <input type="text" placeholder="Titkosítani kívánt szöveg" name="cryptval">
         <input type="submit">
     </form>
-    <a href="keys/priv.key">Privát kulcs</a>
-    <a href="keys/publ.key">Publikus kulcs</a>
+    <a href="keys/crypto.key">Privát kulcs</a>
+    <a href="keys/crypto_p.key">Publikus kulcs</a>
     <br>
     <?php
     include "crypto.php";
